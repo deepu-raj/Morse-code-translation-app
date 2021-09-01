@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+:root{
+    --primary-color: 
+    #F87171 ;
+    --black-color:black;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:auto;
+        
+ }
+
+ .container{
+    padding: 1rem 1rem;
+    }
+.container-center{
+        max-width: 600px;
+        margin:auto;
+    }
+.navigation {
+    background-color: var(--primary-color);
+    color:black;
+    padding:0.5rem,1rem;
+    border-bottom-left-radius:2rem;
+    height:120px;
+    text-align: center;
+    margin-bottom: 5rem;
+    }
+.nav-text{
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+
+
+ #textArea,#output{
+    
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 2rem;
+        font-size: xx-large;
+        text-align: center;
+        padding:2rem;
+            }
+            
+button {
+background-color: var(--primary-color);
+border: none;
+margin: 1rem,2rem;
+padding: 1rem 2rem;
+font-size: large;
+
+      }
+
+.text-style1 {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black-color);
+    margin:auto;
+            }
+footer{
+    background-color: var(--primary-color);
+    color:black;
+    padding:0.5rem,1rem;
+    border-top-right-radius:2rem;
+    height:20%;
+    text-align: center;
+    margin-top:5rem;
+    
+}
+
+.footer-head{
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.footer-text{ 
+
+    padding-bottom:1rem;
+    font-size: large;
+
+}
+
